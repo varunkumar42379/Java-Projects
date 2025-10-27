@@ -1,0 +1,142 @@
+🧑‍🎓 1. Student Database Management System
+🔹 Project Description:
+
+The Student Database Management System is a Java console-based application that helps manage student records. Using OOP concepts, you’ll create classes like Student, DatabaseConnection, and StudentDAO. The system connects to a MySQL database using JDBC to perform operations such as adding, updating, deleting, and viewing student details.
+
+🎯 Objectives:
+
+To store and manage student information efficiently.
+
+To learn how to connect Java with MySQL using JDBC.
+
+To practice CRUD (Create, Read, Update, Delete) operations.
+
+⚙️ Technologies Used:
+
+Java (Core + OOP)
+
+MySQL Database
+
+JDBC (Java Database Connectivity)
+
+📋 Features:
+
+Add New Student – Enter student details like name, roll number, course, and marks.
+
+View All Students – Display a list of all students from the database.
+
+Search Student by ID/Roll Number – Find a specific student’s details.
+
+Update Student Information – Modify existing student details.
+
+Delete Student Record – Remove a student from the database.
+
+Exit Program – End the application safely.
+
+🧩 Example Classes:
+
+Student → represents a student (data model).
+
+DatabaseConnection → handles MySQL connection.
+
+StudentDAO → performs CRUD operations.
+
+MainApp → main menu and user interface.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+💰 2. Monthly Expense Manager
+🔹 Project Description:
+
+The Monthly Expense Manager is a console-based app that helps users track their income and expenses. The user can add daily expenses, categorize them, and view total monthly spending. Data is stored in a MySQL database, and JDBC is used to handle all data operations.
+
+🎯 Objectives:
+
+To learn how to store and manage financial data.
+
+To understand OOP principles by designing separate classes for expenses and categories.
+
+To perform calculations (total expenses, savings, etc.) using Java.
+
+⚙️ Technologies Used:
+
+Java (OOP, basic calculations)
+
+MySQL
+
+JDBC
+
+📋 Features:
+
+Add Expense – Add details like date, category, amount, and description.
+
+View All Expenses – Show all recorded expenses from the database.
+
+View Total Monthly Expense – Calculate the total spending for a given month.
+
+Search Expense by Category or Date – Filter records.
+
+Delete an Expense – Remove an unwanted record.
+
+Exit Program – Close the program.
+
+🧩 Example Classes:
+
+Expense → represents an expense record.
+
+DatabaseConnection → manages database connectivity.
+
+ExpenseDAO → contains methods to add/view/update/delete expenses.
+
+ExpenseManagerApp → contains the main logic and user menu.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+📚 3. Library Management System
+🔹 Project Description:
+
+The Library Management System is a Java console program that manages books and members in a library. It allows adding new books, issuing books to members, returning them, and checking availability. All data is stored in MySQL, and operations are handled through JDBC.
+
+🎯 Objectives:
+
+To understand object relationships (Book–Member–Library).
+
+To learn how to manage multiple entities in a database.
+
+To practice real-world CRUD operations with relational data.
+
+⚙️ Technologies Used:
+
+Java (OOP)
+
+MySQL
+
+JDBC
+
+📋 Features:
+
+Add New Book – Add books with title, author, and quantity.
+
+View All Books – Display available books.
+
+Register Member – Add new library members.
+
+Issue Book – Assign a book to a member (reduce book count).
+
+Return Book – Return a book (increase book count).
+
+Delete Book or Member – Remove entries.
+
+Exit Program
+
+🧩 Example Classes:
+
+Book → represents a book record.
+
+Member → represents a library member.
+
+LibraryDAO → handles all database operations (books and members).
+
+DatabaseConnection → manages JDBC connection.
+
+LibraryApp → provides a console-based menu.
