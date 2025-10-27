@@ -1,9 +1,7 @@
 🧑‍🎓 1. Student Database Management System
 🔹 Project Description:
 
-The Student Database Management System is a Java console-based application that helps manage student records.
-Using OOP concepts, you’ll create classes like Student, DatabaseConnection, and StudentDAO.
-The system connects to a MySQL database using JDBC to perform operations such as adding, updating, deleting, and viewing student details.
+The Student Database Management System is a Java console-based application that helps manage student records. Using OOP concepts, you’ll create classes like Student, DatabaseConnection, and StudentDAO. The system connects to a MySQL database using JDBC to perform operations such as adding, updating, deleting, and viewing student details.
 
 🎯 Objectives:
 
